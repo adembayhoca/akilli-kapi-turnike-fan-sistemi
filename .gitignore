@@ -1,0 +1,64 @@
+# Arduino .gitignore dosyası (Tinkercad Projesi)
+
+# IDE ve Editör dosyaları
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+
+# Arduino IDE dosyaları
+*.hex
+*.eep
+*.elf
+*.map
+*.lss
+*.sym
+*.o
+*.d
+*.a
+*.dblite
+
+# Build klasörleri
+build/
+*.build/
+.pio/
+.platformio/
+
+# Kütüphane yönetimi
+libraries/
+lib/
+
+# Geçici dosyalar
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+*.log
+
+# Tinkercad export dosyaları
+*.brd
+*.sch
+*.lbr
+
+# Simülasyon dosyaları
+*.pdsprj.DESKTOP-*
+*.pdsprj.*workspace
+
+# Fritzing yedek dosyaları
+*.fzz~
+*.fzb~
+
+# Eagle CAD dosyaları
+*.s#?
+*.b#?
+*.l#?
+*.job
+
+# Tinkercad ve devre tasarım yedekleri
+*.autosave
+*.backup 
